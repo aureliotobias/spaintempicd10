@@ -12,7 +12,7 @@ The **R script** files below reproducde step by step the analysis using an open 
 
 * and the following **ancillary functions** also need to be uploaded: 
 
-    * **valencia.csv** - example open access dataset for the city of Valencia (<a href="https://pubmed.ncbi.nlm.nih.gov/39071964/" target="_blank">Tobías et al. 2024</a>).  
+    * **valencia.csv** - example dataset for the city of Valencia (from the compilation of open access time-series datasets for studying temperature-mortality association by <a href="https://pubmed.ncbi.nlm.nih.gov/39071964/" target="_blank">Tobías et al. 2024</a>).  
     * **cyclic.R** - function to generate the clyclic spline to fit seasonality (adapted from the R packge DLNM by <a href="https://pubmed.ncbi.nlm.nih.gov/22003319/" target="_blank">Gasparrini 2017</a>).  
     * **findmax.R** - function to estimate the peak of seasonality (adapted from the R function to estimate the minimum the minimum mortality temperature by <a href="https://pubmed.ncbi.nlm.nih.gov/27748681/" target="_blank">Tobías et al. 2017</a>). 
     * **findmin.R** - function to estimate the trhough of seasonality (adapted from the R function to estimate the minimum the minimum mortality temperatureby <a href="https://pubmed.ncbi.nlm.nih.gov/27748681/" target="_blank">Tobías et al. 2017</a>). 
