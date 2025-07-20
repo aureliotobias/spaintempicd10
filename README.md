@@ -2,7 +2,7 @@
 **R script** file to estimate cause-specific mortality burden attributable to ambient temperature and seasonal variations in Spain.<br>
 <br>
 <br>
-Tobías A, Iñíguez C, Royé D, Hashizume M, Madaniyazi L. Cause-specific mortality burden attributable to ambient temperature and seasonal variations in Spain. <b>To be submitted</b>.
+Tobías A, Iñíguez C, Royé D, Hashizume M, Madaniyazi L. Cause-specific mortality burden attributable to ambient temperature and seasonal variations in Spain. <b>Under review</b>.
 
 ---
 
