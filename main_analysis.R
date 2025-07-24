@@ -166,7 +166,7 @@ for(j in 1:l){ logrr_se[1,j] <- sqrt( as.numeric(t(bvar[j,]-bvar_cen) %*% vcov%*
 ###### Plot seasonality.
 
 # Create day of year for x axis.
-data$data <- as.Date(data$date, "%Y-/%m-/%d")
+data$date <- as.Date(data$date, "%Y-/%m-/%d")
 DY <- as.Date(data$date[data$year == 2004])
 dateY <- format(DY, format="%b %d")
 M <- mondate("1-1-2004")
@@ -200,8 +200,9 @@ legend("topright", legend=c("Seasonal variation"),
 layout(1)
 
 ####### Attributable Deaths.
-an.season <- attrs(data$seasonal, spline.season, data$all, model, type="an", tot=T) 
-simaf2 <- attrs(data$seasonal, spline.season, data$all, model, type="an", tot=T, sim=T)
+data$death <- data$all
+an.season <- attrs(data$seasonal, spline.season, data, model, type="an", tot=T) 
+simaf2 <- attrs(data$seasonal, spline.season, data, model, type="an", tot=T, sim=T)
 an.low.season <- quantile(simaf2,c(2.5)/100)
 an.upp.season <- quantile(simaf2,c(97.5)/100)
 cbind(an.season, an.low.season, an.upp.season)
