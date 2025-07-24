@@ -1,9 +1,8 @@
-## Mortality burden attributable to temperature and seasonal variation
+## Mortality burdens attributable to temperature and seasonal variation
 **R script** file to estimate cause-specific mortality burden attributable to ambient temperature and seasonal variations in Spain.<br>
 <br>
 <br>
-Tobías A, Iñíguez C, Royé D, Hashizume M, Madaniyazi L. Cause-specific mortality burden attributable to ambient temperature and seasonal variations in Spain. <b>Under review</b>.
-
+Tobías A, Iñíguez C, Royé D, Hashizume M, Madaniyazi L. Comparing mortality burdens attributable to ambient temperature and seasonal variation across major causes of death in Spain. <b>Under review</b>.
 ---
 
 The **R script** files below reproducde step by step the analysis using an open access dataset for the city of Valencia (Spain). 
